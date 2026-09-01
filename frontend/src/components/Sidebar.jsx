@@ -192,16 +192,7 @@ const Sidebar = ({ user, isCollapsed, setIsCollapsed }) => {
                 : sidebarStyles.footerContainer.expanded,
             )}
           >
-            <Link
-              className={cn(
-                sidebarStyles.footerLink.base,
-                isCollapsed && sidebarStyles.footerLink.collapsed,
-              )}
-              to="https://www.hexagondigitalservices.com/contact"
-            >
-              <HelpCircle size={20} className=" text-gray-500" />
-              {!isCollapsed && <span>Support</span>}
-            </Link>
+           
 
             <button
               onClick={handleLogout}
