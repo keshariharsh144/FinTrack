@@ -1,7 +1,7 @@
 ![Matrix SVG](./assets/matrix.svg)
 <div align="center">
   
-# 💰 FinTrack
+# 💰FinTrack
 
 ### Personal Finance & Expense Management Dashboard
 
